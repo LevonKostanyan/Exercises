@@ -1,8 +1,8 @@
 let numbers = [];
 
-let devide3 = 21;
+let divide3 = 21;
 
-for (let i = devide3; i > 0; i--) {
+for (let i = divide3; i > 0; i--) {
     if (i % 3 === 0) {
         numbers.push(i);
     }

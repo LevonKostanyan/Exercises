@@ -2,11 +2,11 @@
 
 let numbers = [];
 
-let fibonachi = 10;
+let Fibonacci = 10;
 
 let result = 1;
 
-for (let i = 0; i < fibonachi; i++) {
+for (let i = 0; i < Fibonacci; i++) {
     numbers.push(result)
     result = numbers[i] + (numbers[i - 1] || 0)
 }
